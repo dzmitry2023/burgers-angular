@@ -27,7 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/lottie-player.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -43,8 +45,8 @@
                   "maximumError": "1mb"
                 }
               ],
-              "outputHashing": "all"
-              // "baseHref": "/my-app/"
+              "outputHashing": "all",
+              "baseHref": "/my-app/"
             },
             "development": {
               "buildOptimizer": false,
